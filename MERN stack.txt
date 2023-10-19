@@ -1,0 +1,29 @@
+MERN stack:
+
+1.React
+
+Designed some pages/screes separately i.e. Home,login,signup
+Created some components namely Navbar,Footer,Carosuel,Card
+Placed these compoents on the Home screen
+All the styling and structure is done using Bootstrap
+
+2.MongoDB
+
+Downloaded mongoose and signed up for mongodb atlas
+Created a database called Cluster0 and uploaded some data on the cluster using connect method by connecting using a link provided by atlas(in the link add password and the database name)
+
+3.Express 
+Created a file containing express and linked the db in the file
+Using this framework we are going to start the server and connect to the mongodb database
+Using this we also include the creation of user 
+
+4.Node 
+Installed for backend and started a server side using nodemon server
+
+
+
+In the backend folder,we've created a file called User.js for defining a schema of the data from user
+
+Inside the routes folder,(CreateUser) file is created for applying validators and defined methods for creating a user account(Signup) and logging in
+
+Then designed the SignUp and login page using React and included the handleSubmit method and onChange event(for dynamic input)
